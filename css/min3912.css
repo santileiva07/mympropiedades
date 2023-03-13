@@ -12734,6 +12734,9 @@ section#project-list .card .card-content .return .number {
     text-align: center;
     color: #072051;
 }
+.number3 {
+    font-size: 40px;
+}
 section#project-list .card .card-content .return .number .percentage {
     font-size: 32px;
 }
