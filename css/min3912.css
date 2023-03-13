@@ -12725,6 +12725,15 @@ section#project-list .card .card-content .return .number {
     text-align: center;
     color: #072051;
 }
+.number2 {
+    display: block;
+    font-family: 'Oswald',  sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: #072051;
+}
 section#project-list .card .card-content .return .number .percentage {
     font-size: 32px;
 }
