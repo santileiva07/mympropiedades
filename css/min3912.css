@@ -19023,7 +19023,7 @@ section.project-content .floating-info .blue_box .action-btn a i {
   /* Regla de medios para dispositivos móviles */
   @media only screen and (max-width: 823px) {
     #home-banner {
-      background: url("../img/home-bg-mobile.jpg") top right no-repeat !important;
+      background: url("../img/home-bg-mobile.jpg") top right no-repeat;
     }
   }
 #home-banner .usd-globe {
