@@ -19018,7 +19018,7 @@ section.project-content .floating-info .blue_box .action-btn a i {
 }
 
 @media only screen and (max-width: 767px) {
-  #home-banner {
+  #home-mobile {
     background: url(../img/home-bg-mobile.jpg) center center no-repeat;
     background-size: cover;
   }
