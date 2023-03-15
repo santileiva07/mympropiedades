@@ -19021,7 +19021,7 @@ section.project-content .floating-info .blue_box .action-btn a i {
 }
 @media only screen and (max-width: 823px) 
 #home-banner {
-background: url(../img/home-bg-mobile.jpg);
+background: url(../img/home-bg-mobile.jpg) !important;
 }
 #home-banner .usd-globe {
     position: absolute;
