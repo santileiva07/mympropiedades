@@ -19007,7 +19007,7 @@ section.project-content .floating-info .blue_box p.status-label .prop-title, sec
 section.project-content .floating-info .blue_box .action-btn a i {
     display: none;
 }
-}#home-banner {
+#home-banner {
     position: relative;
     top: 0;
     left: 0;
@@ -19018,10 +19018,14 @@ section.project-content .floating-info .blue_box .action-btn a i {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-}@media only screen and (max-width: 823px) 
-#home-banner {
-background: url("../img/home-bg-mobile.jpg") top right no-repeat !important;
-}
+  }
+  
+  /* Regla de medios para dispositivos móviles */
+  @media only screen and (max-width: 823px) {
+    #home-banner {
+      background: url("../img/home-bg-mobile.jpg") top right no-repeat !important;
+    }
+  }
 #home-banner .usd-globe {
     position: absolute;
     top: 115px;
