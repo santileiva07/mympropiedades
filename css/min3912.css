@@ -19013,13 +19013,13 @@ section.project-content .floating-info .blue_box .action-btn a i {
     left: 0;
     height: 0;
     padding-top: 56.25%; /* proporción 16:9 */
-    background: url(../img/home-bg-desktop.jpg) center center no-repeat;
+    background: url("../img/home-bg-desktop.jpg") center center no-repeat;
     background-size: cover;
 }
 
 @media only screen and (max-width: 767px) {
-  #home-mobile {
-    background: url(../img/home-bg-mobile.jpg) center center no-repeat;
+  #home-banner {
+    background: url("../img/home-bg-mobile.jpg") center center no-repeat;
     background-size: cover;
   }
 }
