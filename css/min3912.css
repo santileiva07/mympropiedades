@@ -19007,21 +19007,21 @@ section.project-content .floating-info .blue_box p.status-label .prop-title, sec
 section.project-content .floating-info .blue_box .action-btn a i {
     display: none;
 }
-}#home-banner {
+#home-banner {
     position: relative;
     top: 0;
     left: 0;
-    min-height: 415px;
-    height: 690px;
-    width: 100%;
-    background: url("../img/home-bg.jpg") top right no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    height: 0;
+    padding-top: 56.25%; /* proporción 16:9 */
+    background: url(../img/home-bg-desktop.jpg) center center no-repeat;
     background-size: cover;
 }
-@media only screen and (max-width: 823px) 
-#home-banner {
-background: url("../img/home-bg-mobile.jpg") top right no-repeat !important;
+
+@media only screen and (max-width: 767px) {
+  #home-banner {
+    background: url(../img/home-bg-mobile.jpg) center center no-repeat;
+    background-size: cover;
+  }
 }
 #home-banner .usd-globe {
     position: absolute;
