@@ -10714,6 +10714,7 @@ body {
     margin-left: -15px;
 }
 header#header-global {
+    border-radius: 30px;
     position: fixed;
     top: 0;
     left: 0;
