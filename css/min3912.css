@@ -10714,7 +10714,6 @@ body {
     margin-left: -15px;
 }
 header#header-global {
-    border-radius: 30px;
     position: fixed;
     top: 0;
     left: 0;
@@ -19142,8 +19141,6 @@ section.project-content .floating-info .blue_box .action-btn a i {
 }
 #home-banner .home-stats {
     position: absolute;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
     bottom: 0;
     left: 0;
     width: 100%;
