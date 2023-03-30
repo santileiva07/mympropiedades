@@ -13,6 +13,11 @@ body {
 * {
     border-radius: 5px;
 }
+div:not(header-container),
+h2:not(h2.special),
+h3:not(h3.special) {
+  /* estilos específicos para encabezados especiales */
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }
